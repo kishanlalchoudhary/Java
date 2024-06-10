@@ -1,4 +1,6 @@
-public class ClassAndObject {
+package oops;
+
+public class ClassesAndObjects {
     public static void main(String[] args) {
         Dog d1 = new Dog();
         d1.name = "Tommy";

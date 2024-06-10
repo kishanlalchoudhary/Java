@@ -30,7 +30,7 @@ interface Animal{
     // By Default variables are public static final
     int LEGS = 4;
 
-    // Methods by default are public and abstract inside interfaces
+    // basics.Methods by default are public and abstract inside interfaces
     void eats();
     void drinks();
 }

@@ -1,3 +1,5 @@
+package polymorphism;
+
 public class MethodOverloading {
     public static void main(String[] args) {
         Greet obj = new Greet();
@@ -11,16 +13,16 @@ class Greet{
     // Allowed - Its Method Overloading
 
     void greetings(){
-        System.out.println("Hello, Good Morning");
+        System.out.println("basics.Hello, Good Morning");
     }
 
     void greetings(String name){
-        System.out.println("Hello "+name+", Good Morning");
+        System.out.println("basics.Hello "+name+", Good Morning");
     }
 
     void greetings(String name, int count){
         for (int i = 0; i < count; i++) {
-            System.out.println("Hello "+name+", Good Morning");
+            System.out.println("basics.Hello "+name+", Good Morning");
         }
     }
 
@@ -31,6 +33,6 @@ class Greet{
 //    }
 
 //    void greetings(String message){
-//        System.out.println("Hello, "+message);
+//        System.out.println("basics.Hello, "+message);
 //    }
 }

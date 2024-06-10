@@ -1,3 +1,5 @@
+package oops;
+
 public class Constructors {
     public static void main(String[] args) {
         ComplexClass num1 = new ComplexClass();
@@ -16,7 +18,7 @@ class ComplexClass {
     int a, b;
 
     // Default Constructor Created by Java Compiler if it is not explicity defiined
-    // public ComplexClass(){
+    // public oops.ComplexClass(){
     //     a = 0;
     //     b = 0;
     // }
@@ -28,7 +30,7 @@ class ComplexClass {
     }
 
     // Parametrized Constructor
-//    public ComplexClass(int real, int img){
+//    public oops.ComplexClass(int real, int img){
 //        a = real;
 //        b = img;
 //    }

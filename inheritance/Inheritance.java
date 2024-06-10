@@ -1,19 +1,21 @@
+package inheritance;
+
 class Vehicle {
     int wheelsCount;
     String model;
 
     Vehicle(){
-        System.out.println("Vehicle Instance is Created");
+        System.out.println("inheritance.Vehicle Instance is Created");
     }
 
     Vehicle(int wheelsCount, String model){
         this.wheelsCount = wheelsCount;
         this.model = model;
-        System.out.println("Vehicle Instance is Created with Wheels Count and Model");
+        System.out.println("inheritance.Vehicle Instance is Created with Wheels Count and Model");
     }
 
     void start(){
-        System.out.println("Vehicle is Starting");
+        System.out.println("inheritance.Vehicle is Starting");
     }
 }
 
@@ -29,7 +31,7 @@ class Car extends Vehicle {
         // this("Blue");
 
         // Both super and this cannot be called together
-        System.out.println("Car Instance is Created");
+        System.out.println("inheritance.Car Instance is Created");
     }
 
     Car(String color){
@@ -39,14 +41,14 @@ class Car extends Vehicle {
     // Method Overriding
     // Use of super Keyword
     void start(){
-        System.out.println("Car is Starting");
+        System.out.println("inheritance.Car is Starting");
         super.start();
     }
 
     // Use of this Keyword
     void info(){
         System.out.println(this);
-        System.out.println("Car model is "+this.model+", wheel count is "+this.wheelsCount+" and color is "+this.color);
+        System.out.println("inheritance.Car model is "+this.model+", wheel count is "+this.wheelsCount+" and color is "+this.color);
     }
 }
 

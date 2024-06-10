@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Strings {
@@ -17,7 +19,7 @@ public class Strings {
         String newName = new String("Kishanlal");
         String caseName = "kiSHaNLal";
 
-//      // Comparing Strings
+//      // Comparing basics.Strings
 
         if(name == sameName){
             System.out.println("Both are same");
@@ -39,9 +41,9 @@ public class Strings {
             System.out.println("Value of both is same irrespective of case");
         }
 
-        // String Methods
+        // String basics.Methods
 
-        String word1 = "  Hello ";
+        String word1 = "  basics.Hello ";
         System.out.println(word1.toLowerCase());
         System.out.println(word1.toUpperCase());
         System.out.println(word1.trim());

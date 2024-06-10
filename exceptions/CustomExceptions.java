@@ -1,10 +1,10 @@
-import java.io.IOException;
+package exceptions;
 
-public class CustomException {
+public class CustomExceptions {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("basics.Hello World");
         try{
-            throw new MyException("Custom Exception");
+            throw new MyException("Custom Exceptions.Exception");
         }catch(MyException e){
             System.out.println(e);
         }
@@ -12,7 +12,7 @@ public class CustomException {
     }
 }
 
-class MyException extends Exception{
+class MyException extends Exception {
     MyException(String message){
         super(message);
     }

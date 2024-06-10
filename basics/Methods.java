@@ -1,6 +1,8 @@
+package basics;
+
 public class Methods {
     public static void greet(){
-        System.out.println("Hello World");
+        System.out.println("basics.Hello World");
     }
 
     public static int average(int a, int b){
@@ -10,14 +12,14 @@ public class Methods {
     }
 
     public static void main(String[] args) {
-        // User Defined Methods
+        // User Defined basics.Methods
 
         greet();
 
         int avg = average(5, 6);
         System.out.println(avg);
 
-        // Pre Defined Methods
+        // Pre Defined basics.Methods
 
         System.out.println(Math.max(10,20));
         System.out.println(Math.min(10,20));

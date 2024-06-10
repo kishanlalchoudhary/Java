@@ -1,3 +1,5 @@
+package inheritance;
+
 class VehicleClass {
     String model;
 
@@ -20,7 +22,7 @@ final class TwoWheelerClass extends VehicleClass{
 }
 
 // Will give error because final class cannot be inherited
-//class ScooterClass extends TwoWheelerClass{
+//class ScooterClass extends inheritance.TwoWheelerClass{
 //
 //}
 

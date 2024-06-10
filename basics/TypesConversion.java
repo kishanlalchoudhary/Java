@@ -1,3 +1,5 @@
+package basics;
+
 public class TypesConversion {
     public static void main(String[] args) {
         long count = 12;

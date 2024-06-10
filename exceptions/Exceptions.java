@@ -1,6 +1,8 @@
- public class Exceptions {
+package exceptions;
+
+public class Exceptions {
     public static void main(String[] args) {
-        System.out.println("Hello Guys");
+        System.out.println("basics.Hello Guys");
 
         int arr[] = new int[5];
 
@@ -18,7 +20,7 @@
         }catch(RuntimeException e){
             System.out.println("All RuntimeExceptions Handled");
         }
-        catch(Exception e){
+        catch(java.lang.Exception e){
             System.out.println("All Exceptions Handled");
         }finally{
             System.out.println("I will run always");
